@@ -12,7 +12,7 @@ img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
 draw = ImageDraw.Draw(img)
 
 # decide font and size
-font = ImageFont.truetype(FredokaOne, 22)
+font = ImageFont.truetype(FredokaOne, 32)
 
 # message to write
 message = "Hello, World!"
